@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  max-width: 380px;
+}
+.card_container #thumbnail_image {
+  height: 202px;
+  width: 100%;
+  border-radius: 10px;
+}
+.card_container .video_label {
+  padding: 5px;
+  display: flex;
+}
+.card_container .video_label img {
+  flex-basis: 20%;
+  height: 35px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+.card_container .video_label .video_label__text div {
+  margin-top: 5px;
+}
+.card_container .video_label .video_label__text div .channel_name {
+  font-size: small;
+  color: gray;
+}
+.card_container .video_label .video_label__text div .about {
+  font-size: small;
+  color: gray;
+}
+.card_container .video_label .video_label__text div .about i {
+  font-size: 5px;
+  vertical-align: middle;
+  margin: 0 2px;
+}/*# sourceMappingURL=VideoCard.css.map */

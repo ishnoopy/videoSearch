@@ -1,0 +1,25 @@
+.suggestion_container {
+  margin: 10px auto;
+  width: 84vw;
+  height: 50px;
+}
+.suggestion_container .suggestion {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #E5E5E5;
+  font-size: small;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.suggestion_container .suggestion:hover {
+  background-color: #c9c8c8;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}/*# sourceMappingURL=SuggestionHeader.css.map */
