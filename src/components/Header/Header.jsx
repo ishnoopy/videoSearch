@@ -15,7 +15,7 @@ export default function Header() {
     const navigate = useNavigate();
     const searchRef = useRef()
 
-    const ACCESS_KEY = "AIzaSyA00xmJeknrk79SIaMtbb3C0V6NzioN11c";
+    const ACCESS_KEY = ""; //Replace with your google access key
   
     async function getVideos() {
       try {
